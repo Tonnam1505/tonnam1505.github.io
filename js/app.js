@@ -21,3 +21,14 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+$(window).scroll(function (event) {
+    var scroll = $(window).scrollTop();
+    if(scroll>50){
+            $('#navbar-sc').slideDown();
+    }else{
+        $('#navbar-sc').slideUp();
+    }
+    console.log(scroll);
+    // Do something
+});
+

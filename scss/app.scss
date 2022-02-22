@@ -2,7 +2,12 @@
 @import '../node_modules/owl.carousel/src/scss/owl.carousel.scss';
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 
-
+nav{
+    .nav-link{
+        color: #fff !important;
+    }
+    
+}
 body{
     background-color: #FBFBFB;
         line-height: 26px;
@@ -325,6 +330,11 @@ body{
     background-color: #F6F6F6;
     padding-top: 20px;
     padding-bottom: 20px;
+    p{
+        // padding-top: 80px;
+        font-size: 20px;
+        line-height: 30px;
+    }
 
     .col-lg-6{
         width: 100%;
