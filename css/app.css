@@ -1,10 +1,27 @@
 body {
-  background-color: #FBFBFB; }
+  background-color: #FBFBFB;
+  line-height: 26px;
+  font-size: 16px;
+  font-family: "Roboto",sans-serif;
+  font-weight: normal; }
+
+.navbar-brand {
+  text-transform: uppercase; }
 
 .mytabs_area {
   background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
   background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
   background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%); }
+  @media only screen and (max-width: 400px) {
+    .mytabs_area {
+      font-size: 10px !important; }
+      .mytabs_area a {
+        line-height: 25px !important;
+        padding: 5px !important; }
+      .mytabs_area .tabs_inner {
+        margin-left: 10px !important; }
+      .mytabs_area h4 {
+        font-size: 15px !important; } }
   .mytabs_area .tabs_inner .nav.nav-tabs {
     display: block;
     text-align: center;
@@ -106,8 +123,10 @@ body {
     background: rgba(255, 255, 255, 0.1); }
 
 .bg-skill {
-  position: relative;
-  margin: 2rem 10rem; }
+  position: relative; }
+  @media only screen and (max-width: 1000px) {
+    .bg-skill .container {
+      padding: 50px !important; } }
   .bg-skill .container {
     padding: 50px 100px 100px 100px; }
   .bg-skill hr {
@@ -124,8 +143,19 @@ body {
     color: #222; }
   .bg-skill .skill_item {
     margin-bottom: 1rem; }
-  .bg-skill .skill_main .progress .progress-bar {
-    width: 0%;
+  .bg-skill .progress-bar {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #007bff;
+    transition: width .6s ease; }
+  .bg-skill .progress-bar {
     transition: width .6s ease;
     height: 10px;
     border-radius: 5px;
@@ -134,7 +164,7 @@ body {
     background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
     background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
     background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%); }
-  .bg-skill .skill_main .skill_item .progress_br {
+  .bg-skill .progress_br {
     border: 1px solid #eee;
     padding: 5px;
     border-radius: 10px; }
@@ -156,6 +186,9 @@ body {
 .personal_text {
   padding: 3rem 0px 0px 3rem;
   font-size: 90%; }
+  @media only screen and (max-width: 1000px) {
+    .personal_text {
+      padding: 20px !important; } }
   .personal_text ul {
     padding-left: 20px;
     list-style: none; }
@@ -192,15 +225,25 @@ body {
     height: 3px;
     width: 50px;
     margin-bottom: 20px; }
+  @media only screen and (max-width: 1000px) {
+    .bg-certificate {
+      margin: 0px;
+      padding: 0 50px; } }
   .bg-certificate .tittle {
     text-align: center;
     margin-bottom: 10px; }
 
 .bg-event {
-  background-color: #F6F6F6;
   padding-top: 20px;
   padding-bottom: 20px; }
-  .bg-event .col-6 {
+  @media only screen and (max-width: 1000px) {
+    .bg-event .row {
+      text-align: left;
+      display: flex !important;
+      margin: 50px !important; }
+      .bg-event .row .col-md-12 {
+        padding-top: 10px !important; } }
+  .bg-event .col-lg-6 {
     width: 100%; }
   .bg-event .item > img {
     margin: auto;
@@ -208,6 +251,7 @@ body {
   .bg-event .row {
     margin: 50px; }
   .bg-event .row:nth-child(odd) {
+    margin: 10px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-flow: dense;

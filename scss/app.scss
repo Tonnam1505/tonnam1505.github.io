@@ -1,7 +1,29 @@
 body{
     background-color: #FBFBFB;
+        line-height: 26px;
+    font-size: 16px;
+    font-family: "Roboto",sans-serif;
+    font-weight: normal;
+    // color: #777;
 }
+.navbar-brand{
+    text-transform: uppercase;
+}
+
 .mytabs_area {
+    @media only screen and (max-width:400px) {
+        font-size: 10px !important;
+        a{
+            line-height: 25px !important;
+            padding: 5px !important;
+        }
+        .tabs_inner{
+            margin-left: 10px !important;
+        }
+        h4{
+            font-size: 15px !important;
+        }
+    }
     background-image: -moz-linear-gradient(0deg,#766dff 0%,#88f3ff 100%);
     background-image: -webkit-linear-gradient(0deg,#766dff 0%,#88f3ff 100%);
     background-image: -ms-linear-gradient(0deg,#766dff 0%,#88f3ff 100%);
@@ -130,6 +152,11 @@ body{
 
 }
 .bg-skill{
+    @media only screen and (max-width:1000px){
+        .container{
+            padding: 50px !important;
+        }
+    }
     .container{
         padding: 50px 100px 100px 100px;
     }
@@ -141,7 +168,7 @@ body{
         width: 50px;
     }
     position: relative;
-    margin: 2rem 10rem;
+    // margin: 2rem 10rem;
     h4 {
         line-height: 0;
         text-align: none;
@@ -154,9 +181,23 @@ body{
     .skill_item{
         margin-bottom: 1rem;
     }
-    .skill_main .progress .progress-bar {
-        width: 0%;
+    .progress-bar {
+        // width: 100% !important;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-pack: center;
+        justify-content: center;
+        color: #fff;
+        text-align: center;
+        white-space: nowrap;
+        background-color: #007bff;
         transition: width .6s ease;
+    }
+    .progress-bar {
+        transition: width .6s ease;
+        // width: auto !important;
         height: 10px;
         border-radius: 5px;
         vertical-align: middle;
@@ -165,7 +206,8 @@ body{
         background-image: -webkit-linear-gradient(0deg,#766dff 0%,#88f3ff 100%);
         background-image: -ms-linear-gradient(0deg,#766dff 0%,#88f3ff 100%);
     }
-     .skill_main .skill_item .progress_br {
+    
+    .progress_br {
         border: 1px solid #eee;
         padding: 5px;
         border-radius: 10px;
@@ -177,6 +219,7 @@ body{
     }
 }
 .bg-prosonal{
+ 
     position: absolute;
     z-index: -10;
     width: 100%;
@@ -188,6 +231,9 @@ body{
     }
 }
 .personal_text{
+    @media only screen and (max-width:1000px) {
+        padding: 20px !important;
+    }
     padding: 3rem 0px 0px 3rem;
     font-size: 90%;
     ul {
@@ -240,17 +286,34 @@ body{
     }
     margin: 50px;
     padding: 0 100px ;
+    @media only screen and (max-width: 1000px) {
+        margin: 0px;
+        padding: 0 50px ;
+    }
     .tittle{
         text-align: center;
         margin-bottom: 10px;
     }
 }
 .bg-event{
-    background-color: #F6F6F6;
+    @media only screen and (max-width: 1000px) {
+        .row {
+            text-align: left;
+            display: flex !important;
+            // grid-template-columns: repeat(1, 1fr) !important;
+            // grid-auto-flow: column !important;
+            margin: 50px !important;
+            .col-md-12{
+                // margin-top: 50px;
+                padding-top: 10px !important;
+            }
+        }
+      }
+    // background-color: red;
     padding-top: 20px;
     padding-bottom: 20px;
 
-    .col-6{
+    .col-lg-6{
         width: 100%;
     }
     .item > img{
@@ -262,6 +325,7 @@ body{
     }
     .row:nth-child(odd) {
         // background: red;
+        margin: 10px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-auto-flow: dense;
