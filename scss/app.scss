@@ -1,6 +1,7 @@
+@import '../node_modules/owl.carousel/src/scss/owl.theme.default.scss';
+@import '../node_modules/owl.carousel/src/scss/owl.carousel.scss';
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
-@import '../node_modules/owl.carousel/dist/assets/owl.carousel.min.css';
-@import '../node_modules/owl.carousel/dist/assets/owl.theme.default.min.css';
+
 
 body{
     background-color: #FBFBFB;
@@ -9,7 +10,7 @@ body{
     font-family: "Roboto",sans-serif !important;
     font-weight: normal;
 
-    color: #777;
+    // color: #777;
 }
 .navbar-brand{
     text-transform: uppercase;
