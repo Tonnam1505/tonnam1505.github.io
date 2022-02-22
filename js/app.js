@@ -23,10 +23,12 @@ $('.owl-carousel').owlCarousel({
 })
 $(window).scroll(function (event) {
     var scroll = $(window).scrollTop();
-    if(scroll>50){
+    if(scroll>100){
             $('#navbar-sc').slideDown();
+            $('#navbar-sc2').slideUp();
     }else{
         $('#navbar-sc').slideUp();
+        $('#navbar-sc2').slideDown(500);
     }
     console.log(scroll);
     // Do something
