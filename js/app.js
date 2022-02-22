@@ -1,5 +1,15 @@
 
-
+    $('.counter').each(function () {
+        $(this).prop('Counter',0).animate({
+            Counter: $(this).text()
+        }, {
+            duration: 2000,
+            easing: 'swing',
+            step: function (now) {
+                $(this).text(Math.ceil(now));
+            }
+        });
+    });
 var delay =200;
 $('.skill_item').each(function(i){
     $(this).find('.progress_br').find('.progress').find('.progress-bar').delay(delay * i).animate(
@@ -8,15 +18,10 @@ $('.skill_item').each(function(i){
             width: $(this).find('.progress_br').find('.progress').find('.progress-bar').attr('aria-valuenow')+'%'
         }
     );
-    $(this).find('h4').find('.counter').prop('Counter',0).delay(delay * i).animate({
-        Counter: $(this).text()
-    }, {
-        duration: 2000,
-        easing: 'swing',
-        step: function (now) {
-            $(this).find('h4').find('.counter').text(Math.ceil(now));
-        }
-    });
+   
+
+
+
 
 });
 
