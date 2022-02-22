@@ -20,6 +20,7 @@ $('.owl-carousel').owlCarousel({
             items:3
         }
     }
+    
 })
 $(window).scroll(function (event) {
     var scroll = $(window).scrollTop();
