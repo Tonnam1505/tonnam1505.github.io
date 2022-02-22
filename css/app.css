@@ -92,7 +92,8 @@ body {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-align: start;
-    align-items: flex-start; }
+    align-items: flex-start;
+    padding-left: 50px; }
   .mytabs_area .tabs_inner .tab-content .tab-pane .list li .media .d-flex p {
     color: rgba(255, 255, 255, 0.75);
     margin-bottom: 0;
