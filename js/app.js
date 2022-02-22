@@ -1,3 +1,26 @@
+
+
+var delay =200;
+$('.skill_item').each(function(i){
+    $(this).find('.progress_br').find('.progress').find('.progress-bar').delay(delay * i).animate(
+        {
+            
+            width: $(this).find('.progress_br').find('.progress').find('.progress-bar').attr('aria-valuenow')+'%'
+        }
+    );
+    $(this).find('h4').find('.counter').prop('Counter',0).delay(delay * i).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 2000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).find('h4').find('.counter').text(Math.ceil(now));
+        }
+    });
+
+});
+
+
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:20,
@@ -31,7 +54,7 @@ $(window).scroll(function (event) {
         $('#navbar-sc').slideUp();
         $('#navbar-sc2').slideDown(500);
     }
-    console.log(scroll);
+    // console.log(scroll);
     // Do something
 });
 
