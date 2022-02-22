@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  },
+  "name": "pot_ton",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    ,"scss" :"node-sass --watch scss -o css"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

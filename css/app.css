@@ -1,0 +1,226 @@
+body {
+  background-color: #FBFBFB; }
+
+.mytabs_area {
+  background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%); }
+  .mytabs_area .tabs_inner .nav.nav-tabs {
+    display: block;
+    text-align: center;
+    border: none;
+    margin-bottom: 120px; }
+  .mytabs_area .tabs_inner .tab-content .tab-pane .list {
+    max-width: 460px;
+    margin: auto;
+    position: relative;
+    padding-bottom: 60px; }
+  .mytabs_area .container {
+    padding: 50px 0px; }
+  .mytabs_area .tabs_inner .tab-content .tab-pane .list li span {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: block;
+    background: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    left: 46%;
+    margin-top: 30px;
+    transform: translateX(-50%); }
+  .mytabs_area .tabs_inner .tab-content .tab-pane .list li {
+    margin-bottom: 60px;
+    position: relative; }
+  .mytabs_area .media-body {
+    -ms-flex: 1;
+    flex: 1; }
+  .mytabs_area .tabs_inner .tab-content .tab-pane .list:before {
+    content: "";
+    height: 100%;
+    width: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    left: 46%;
+    transform: translateX(-50%);
+    top: -5px; }
+  .mytabs_area span:before {
+    content: '';
+    height: 7px;
+    width: 7px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: 52%;
+    top: 4px;
+    transform: translateX(-50%); }
+  .mytabs_area span {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: block;
+    background: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    left: 46%;
+    transform: translateX(-50%); }
+  .mytabs_area .tabs_inner .tab-content .tab-pane .list li .media .media-body h4 {
+    color: #fff;
+    font-size: 21px;
+    text-transform: uppercase;
+    margin-bottom: 20px; }
+  .mytabs_area .tabs_inner .tab-content .tab-pane .list li .media .media-body p {
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 0; }
+  .mytabs_area .tabs_inner .tab-content .tab-pane .list li .media .d-flex {
+    padding-right: 100px; }
+  .mytabs_area .media {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start; }
+  .mytabs_area .tabs_inner .tab-content .tab-pane .list li .media .d-flex p {
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 0;
+    padding-top: 20px; }
+  .mytabs_area .list {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  .mytabs_area ol, .mytabs_area ul {
+    margin-top: 0;
+    margin-bottom: 1rem; }
+  .mytabs_area .tabs_inner .nav.nav-tabs li {
+    display: inline-block;
+    margin-right: 8px; }
+  .mytabs_area .tabs_inner .nav.nav-tabs li a.active {
+    background: #fff;
+    color: #222; }
+  .mytabs_area .tabs_inner .nav.nav-tabs li a {
+    margin: 0;
+    line-height: 50px;
+    border-radius: 5px;
+    padding: 0 40px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+    font-family: "Roboto",sans-serif;
+    border: 1px solid #9ab5f5;
+    background: rgba(255, 255, 255, 0.1); }
+
+.bg-skill {
+  position: relative;
+  margin: 2rem 10rem; }
+  .bg-skill .container {
+    padding: 50px 100px 100px 100px; }
+  .bg-skill hr {
+    margin: auto;
+    color: #6DE4EA;
+    height: 3px;
+    width: 50px; }
+  .bg-skill h4 {
+    line-height: 0;
+    text-align: none;
+    font-size: 14px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 500;
+    color: #222; }
+  .bg-skill .skill_item {
+    margin-bottom: 1rem; }
+  .bg-skill .skill_main .progress .progress-bar {
+    width: 0%;
+    transition: width .6s ease;
+    height: 10px;
+    border-radius: 5px;
+    vertical-align: middle;
+    align-self: center;
+    background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+    background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+    background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%); }
+  .bg-skill .skill_main .skill_item .progress_br {
+    border: 1px solid #eee;
+    padding: 5px;
+    border-radius: 10px; }
+  .bg-skill .skill_main .skill_item .progress {
+    height: 10px;
+    border-radius: 10px;
+    background: #e8e8e8; }
+
+.bg-prosonal {
+  position: absolute;
+  z-index: -10;
+  width: 100%;
+  height: 620px;
+  transform: translateY(-200px);
+  background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%); }
+  .bg-prosonal .container {
+    padding: 50px 5px; }
+
+.personal_text {
+  padding: 3rem 0px 0px 3rem;
+  font-size: 90%; }
+  .personal_text ul {
+    padding-left: 20px;
+    list-style: none; }
+    .personal_text ul a {
+      line-height: 30px;
+      color: black;
+      text-decoration: none; }
+      .personal_text ul a i {
+        color: #766dff;
+        padding-right: 5px; }
+  .personal_text .btn {
+    color: white;
+    padding: 2px 2px;
+    margin: 5px;
+    width: 32px;
+    height: 32px;
+    text-align: center; }
+  .personal_text .social {
+    text-align: center;
+    margin: 10px; }
+  .personal_text .facebook {
+    background-color: #1877F2; }
+  .personal_text .instagram {
+    background-color: #F00073; }
+  .personal_text .line {
+    background-color: #25D366; }
+
+.bg-certificate {
+  margin: 50px;
+  padding: 0 100px; }
+  .bg-certificate hr {
+    margin: auto;
+    color: #6DE4EA;
+    height: 3px;
+    width: 50px;
+    margin-bottom: 20px; }
+  .bg-certificate .tittle {
+    text-align: center;
+    margin-bottom: 10px; }
+
+.bg-event {
+  background-color: #F6F6F6;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .bg-event .col-6 {
+    width: 100%; }
+  .bg-event .item > img {
+    margin: auto;
+    display: block; }
+  .bg-event .row {
+    margin: 50px; }
+  .bg-event .row:nth-child(odd) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-flow: dense;
+    direction: rtl; }
+  .bg-event .row:nth-child(even) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+  .bg-event hr {
+    margin: auto;
+    color: #6DE4EA;
+    height: 3px;
+    width: 50px;
+    margin-bottom: 20px; }
+  .bg-event .tittle {
+    text-align: center;
+    margin-bottom: 10px; }
