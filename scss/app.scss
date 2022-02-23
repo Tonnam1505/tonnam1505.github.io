@@ -413,7 +413,7 @@ body{
 .bg-event{
     @media only screen and (max-width: 1000px) {
         .row {
-            text-align: left;
+            text-align: left !important;
             display: flex !important;
             // grid-template-columns: repeat(1, 1fr) !important;
             // grid-auto-flow: column !important;
@@ -421,6 +421,9 @@ body{
             .col-md-12{
                 // margin-top: 50px;
                 padding-top: 10px !important;
+            }
+            .col-lg-5{
+                padding: 15px !important;
             }
         }
       }
