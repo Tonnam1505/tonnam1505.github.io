@@ -103,6 +103,15 @@ body {
 }
 
 .mytabs_area {
+    hr {
+        margin: auto;
+        color: #ffff;
+        height: 3px;
+        width: 50px;
+        // padding-top: 100px;
+        // transform: translateY(-100);
+        margin-bottom: 20px;
+      }
   @media only screen and (max-width: 400px) {
     font-size: 10px !important;
     a {
@@ -132,7 +141,7 @@ body {
     padding-bottom: 60px;
   }
   .container {
-    padding: 50px 0px;
+    padding: 20px 0px;
   }
   .tabs_inner .tab-content .tab-pane .list li span {
     height: 15px;
