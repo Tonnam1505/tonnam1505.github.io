@@ -1,97 +1,72 @@
-<!doctype html>
-<html lang="th">
 
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <title>Portfolio</title>
-  <!-- CSS only -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-  <link rel="stylesheet" href="/css/app.css">
+  <style>
+  body {
+      position: relative; 
+  }
+  </style>
 </head>
-
-<body>
-  <nav class="navbar navbar-expand-lg navbar-dark " id="navbar-sc2">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Portfolio</a>
-      <!-- Collapse button -->
-      <button class="navbar-toggler third-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <div class="animated-icon3"><span></span><span></span><span></span></div>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end text-center " id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link " href="#history">History</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="#Award">Award certificate</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="#Activity">Activity</a>
-          </li>
-        </ul>
-
-      </div>
-    </div>
-  </nav>
-  
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-light fixed-top" style="display: none;" id="navbar-sc">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Portfolio</a>
- <!-- Collapse button -->
- <button class="navbar-toggler third-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
- aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
- <div class="animated-icon3"><span></span><span></span><span></span></div>
-</button>
-
-
-      <div class="collapse navbar-collapse justify-content-end text-center " id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link " href="#history">History</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="#Award">Award certificate</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Activity">Activity</a>
-          </li>
-        </ul>
-
-      </div>
-    </div>
-  </nav>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
 
 
 
-  <div data-bs-spy="scroll" data-bs-target="#navbar-sc" data-bs-offset="0" tabindex="0">
 
 
 
-    <section class="bg-prosonal" id="home">
+
+
+
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-light fixed-top"  id="navbar-sc">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Portfolio</a>
+     <!-- Collapse button -->
+     <button class="navbar-toggler third-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+     <div class="animated-icon3"><span></span><span></span><span></span></div>
+    </button>
+    
+    
+          <div class="collapse navbar-collapse justify-content-end text-center " id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link " href="#history">History</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#Award">Award certificate</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Activity">Activity</a>
+              </li>
+            </ul>
+    
+          </div>
+        </div>
+      </nav>
+
+
+      <section class="bg-prosonal " id="home">
     </section>
-    <div class="container ">
-      <div class="row m-3 bg-white shadow-lg p-4 rounded-3">
+    <div class="container mt-6">
+      <div class="row mt-5 m-3 bg-white shadow-lg p-4 rounded-3">
         <div class="col-lg-6 col-md-12 p-4">
           <img class="img-fluid " src="/img/profile.JPG" />
         </div>
@@ -455,42 +430,24 @@
         </div>
       </div>
     </section>
+    <footer class="bg-dark text-white text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2022 Copyright:
+          <a class="text-white" href="https://github.com/kigkosa">kigkosa</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-
-
-  </div>
-
-
-
-
-
-
-
-
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="/js/app.js"></script>
-
-  <!-- JavaScript Bundle with Popper -->
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="/js/app.js"></script>
 
 </body>
-<footer class="bg-dark text-white text-center text-lg-start">
-  <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2022 Copyright:
-    <a class="text-white" href="https://github.com/kigkosa">kigkosa</a>
-  </div>
-  <!-- Copyright -->
-</footer>
-
 </html>
