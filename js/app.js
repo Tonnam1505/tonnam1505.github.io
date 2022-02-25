@@ -1,4 +1,7 @@
 
+document.getElementById("year").innerHTML = new Date().getFullYear();
+
+
 $(document).ready(function () {
 
     $('.first-button').on('click', function () {
