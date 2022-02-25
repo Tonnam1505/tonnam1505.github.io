@@ -4,7 +4,6 @@
 @media only screen and (max-width: 991px) {
   .navbar-dark{
     background-color: #212529 !important;
-    // line-height: 10;
   }
 }
 img{
@@ -25,7 +24,6 @@ nav {
   }
   @media (max-width: 991px) {
     .nav-item {
-      // background-color: red;
       line-height: 40px;
       margin-right: 0px;
       display: block;
@@ -34,7 +32,6 @@ nav {
     }
   }
   .nav-link {
-    // font: 500 12px/120px "Roboto", sans-serif;
     text-transform: uppercase;
     color: #fff;
     padding: 0px;
@@ -105,7 +102,6 @@ body {
   font-family: "Roboto", sans-serif !important;
   font-weight: normal;
 
-  // color: #777;
 }
 .navbar-brand {
   text-transform: uppercase;
@@ -117,8 +113,7 @@ body {
         color: #ffff;
         height: 3px;
         width: 50px;
-        // padding-top: 100px;
-        // transform: translateY(-100);
+
         margin-bottom: 20px;
       }
   @media only screen and (max-width: 400px) {
@@ -161,7 +156,6 @@ body {
     position: absolute;
     left: 46%;
     margin-top: 30px;
-    // top: 30px;
     transform: translateX(-50%);
   }
   .tabs_inner .tab-content .tab-pane .list li {
@@ -201,7 +195,6 @@ body {
     background: rgba(255, 255, 255, 0.2);
     position: absolute;
     left: 46%;
-    // top: 30px;
     transform: translateX(-50%);
   }
   .tabs_inner .tab-content .tab-pane .list li .media .media-body h4 {
@@ -278,7 +271,6 @@ body {
     width: 50px;
   }
   position: relative;
-  // margin: 2rem 10rem;
   h4 {
     line-height: 0;
     text-align: none;
@@ -286,13 +278,11 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     color: #222;
-    // margin-bottom: 15px;
   }
   .skill_item {
     margin-bottom: 1rem;
   }
   .progress-bar {
-    // width: 100% !important;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
@@ -307,7 +297,6 @@ body {
   }
   .progress-bar {
     transition: width 0.6s ease;
-    // width: auto !important;
     height: 10px;
     border-radius: 5px;
     vertical-align: middle;
@@ -345,7 +334,6 @@ body {
   }
 
   padding: 3rem 0px 0px 3rem;
-  // font-size: 90%;
   ul {
     padding-left: 0px;
     list-style: none;
@@ -374,13 +362,11 @@ body {
     a {
       width: 40px;
       height: 40px;
-      // text-align: center;
       i {
         margin: 5px;
         font-size: 25px;
       }
     }
-    // margin: 10px;
   }
   .facebook {
     background-color: #1877f2;
@@ -421,11 +407,8 @@ body {
     .row {
       text-align: left !important;
       display: flex !important;
-      // grid-template-columns: repeat(1, 1fr) !important;
-      // grid-auto-flow: column !important;
       margin: 50px !important;
       .col-md-12 {
-        // margin-top: 50px;
         padding-top: 10px !important;
       }
       .col-lg-5 {
@@ -437,7 +420,6 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
   p {
-    // padding-top: 80px;
     font-size: 20px;
     line-height: 30px;
   }
@@ -445,21 +427,12 @@ body {
   .col-lg-6 {
     width: 100%;
   }
-  .item > img {
-    // margin: auto;
-    // display: block;
-    // height: 300px;
-    // max-width: 538px;
-    // max-height: 300px;
-  }
+
   .row {
     margin: 20px !important;
     padding: 20px 0;
     .col-lg-5 {
-      // min-height: 100vh;
       padding: 100px 50px;
-      // box-sizing: border-box;
-      // background: silver;
     }
   }
   .row:nth-child(odd) {
@@ -467,10 +440,8 @@ body {
     img {
       float: left;
     }
-    // background: red;
     margin: 10px;
-    // display: grid;
-    // grid-template-columns: repeat(2, 1fr);
+
     grid-auto-flow: dense;
     direction: rtl;
   }
@@ -480,9 +451,7 @@ body {
       float: right;
     }
     text-align: right;
-    // background: blue;
-    // display: grid;
-    // grid-template-columns: repeat(2, 1fr);
+
   }
   hr {
     margin: auto;
