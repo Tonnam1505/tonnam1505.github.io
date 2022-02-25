@@ -1,3 +1,8 @@
+require('bootstrap');
+require('owl.carousel');
+require('jquery');
+window.$ = jQuery;
+
 
 document.getElementById("year").innerHTML = new Date().getFullYear();
 

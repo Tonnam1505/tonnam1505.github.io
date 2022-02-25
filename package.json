@@ -1,18 +1,26 @@
 {
   "dependencies": {
     "bootstrap": "^5.1.3",
+    "jquery": "^3.6.0",
     "node-sass": "^7.0.1",
-    "owl.carousel": "^2.3.4"
+    "owl.carousel": "^2.3.4",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0"
   },
   "name": "pot_ton",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "dev": "node-sass --watch scss -o css --output-style compressed && webpack -w",
     "test": "echo \"Error: no test specified\" && exit 1",
     "scss": "node-sass --watch scss -o css --output-style compressed",
     "bscss": "node-sass --importer node_modules/node-sass-package-importer/dist/cli.js source/app.sass dest/app.css"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  }
 }
