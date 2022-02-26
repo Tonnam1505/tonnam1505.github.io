@@ -1,6 +1,8 @@
 require('bootstrap');
 require('owl.carousel');
 require('jquery');
+
+
 window.$ = jQuery;
 
 
